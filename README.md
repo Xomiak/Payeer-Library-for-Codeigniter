@@ -1,8 +1,8 @@
 # Payeer-Library-for-Codeigniter
-Библиотека для подключения к сайту системы оплаты Payeer
-
-Пример использования:
-<?php
+Библиотека для подключения к сайту на Codeigniter системы оплаты Payeer
+<br>
+# Пример использования:<br>
+```php
 $this->load->library('Payeer');   // Подключаем библиотеку
 
 $config = array(
@@ -26,4 +26,4 @@ if(isset($_GET['action']) && $_GET['action'] == 'payed'){
 if($payAnswer != 'success'){
   echo $payeer->generateForm(); // выводим форму для оплаты
 }
-?>
+```
