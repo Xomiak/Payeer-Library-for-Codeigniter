@@ -1,4 +1,4 @@
-# Payeer-Library-for-Codeigniter
+# Library for use Payeer.com on Codeigniter
 Библиотека для подключения к сайту на Codeigniter системы оплаты Payeer
 <br>
 # Пример использования:<br>
