@@ -38,7 +38,7 @@ class Payeer
      * @param string $config
      *
      */
-    public function __construct()
+    public function __construct($config = false)
     {
         // Присваеваем приватным переменным переданные в конструктор настройки
         if (isset($config['m_shop'])) $this->m_shop = $config['m_shop'];
